@@ -1,0 +1,265 @@
+        body {
+            margin: 0%;
+        }
+        
+        .plant-logo {
+            padding-left: 1em;
+            width: 5.2em;
+            height: 5.2em;
+        }
+        
+        .nav-bar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #fff;
+            height: 4em;
+            justify-content: space-between;
+            padding: 0.3em 2em;
+            width: 60%;
+            margin: auto;
+        }
+        
+        .nav-options {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            display: flex;
+            flex-direction: row;
+            gap: 2.5em;
+            color: rgb(36, 34, 34);
+        }
+        
+        .hover-one {
+            color: #5f6944;
+            text-decoration: underline;
+            text-underline-offset: 0.5em;
+        }
+        
+        .hover-six {
+            display: flex;
+            align-items: center;
+            gap: 3.5px;
+        }
+        
+        .hover-one:hover {
+            color: #5f6944;
+            text-decoration: underline;
+            text-underline-offset: 0.5em;
+            cursor: pointer;
+        }
+        
+        .hover-two:hover {
+            color: #5f6944;
+            text-decoration: underline;
+            text-underline-offset: 0.5em;
+            cursor: pointer;
+        }
+        
+        .hover-three:hover {
+            color: #5f6944;
+            text-decoration: underline;
+            text-underline-offset: 0.5em;
+            cursor: pointer;
+        }
+        
+        .hover-four:hover {
+            color: #5f6944;
+            text-decoration: underline;
+            text-underline-offset: 0.5em;
+            cursor: pointer;
+        }
+        
+        .hover-five:hover {
+            color: #5f6944;
+            text-decoration: underline;
+            text-underline-offset: 0.5em;
+            cursor: pointer;
+        }
+        
+        .hover-six:hover {
+            color: #5f6944;
+            text-decoration: underline;
+            text-underline-offset: 0.5em;
+            cursor: pointer;
+        }
+        
+        .search-icon {
+            width: 1.5em;
+            height: 1.5em;
+        }
+        
+        .nav-search-shop {
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+        }
+        
+        .shop-icon {
+            width: 1.5em;
+            height: 1.5em;
+        }
+        
+        .content {
+            display: flex;
+            font-family: arial, sans-serif;
+        }
+        
+        .content-title {
+            font-size: 2.5em;
+            color: #000000;
+            font-family: "Untitled Serif", Georgia, Moderat, Helvetica Neue, Helvetica, Arial, sans-serif;
+            text-shadow: 1.2px 1.2px rgb(89, 112, 80);
+        }
+        
+        .content-motto {
+            font-size: 16px;
+            font-weight: 400;
+            color: #000000;
+            padding-bottom: 20px;
+            font-family: Moderat, Helvetica Neue, Helvetica, Arial, sans-serif;
+            width: 60%;
+            line-height: 1.5em;
+        }
+        
+        .content-button {
+            width: 20em;
+            font-size: 17px;
+            font-weight: 500;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            color: black;
+            margin-top: 12px;
+            background: #E7E0D0;
+            border: solid 1.5px black;
+        }
+        
+        .content-button:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .item {
+            width: 50%;
+            padding: 2em;
+            color: #ffffff;
+            background: #a3b18a;
+            min-height: 500px;
+        }
+        
+        .plant-shop {
+            height: 900px;
+            width: 900px;
+        }
+        
+        .last {
+            color: #222;
+            background: #E7E0D0;
+            font-family: "Untitled Serif", Georgia, Moderat, Helvetica Neue, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            padding-top: 18em;
+            padding-left: 5.5em;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .parent {
+                flex-direction: column-reverse;
+            }
+            .item {
+                width: auto;
+                min-height: 200px;
+            }
+            .last {
+                background: #aa0000;
+            }
+        }
+        
+        .promise-block {
+            background-color: #fff;
+            font-size: 16px;
+            color: black;
+            font-family: "Untitled Serif", Georgia, Moderat, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        
+        .promise-title {
+            display: flex;
+            justify-content: center;
+            padding-top: 2.5em;
+            font-size: 2.1em;
+            font-weight: bold;
+            padding-bottom: 1.5em;
+            color: rgb(20, 20, 20);
+            background-color: #f6f8ef;
+        }
+        
+        .our-promises {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 8em;
+            padding-bottom: 4em;
+            background-color: #f6f8ef;
+        }
+        
+        .promise {
+            display: flex;
+            flex-direction: column;
+            width: 25em;
+            text-align: center;
+            line-height: 1.5em;
+            font-family: Moderat, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        
+        .gallery-title {
+            display: flex;
+            justify-content: center;
+            font-family: "Untitled Serif", Georgia, Moderat, Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 30px;
+            background-color: #fff;
+        }
+        
+        .gallery {
+            display: flex;
+            max-width: 1200px;
+            width: 100%;
+            flex-wrap: wrap;
+            margin: auto;
+            padding-left: 9em;
+            background-color: #fff;
+        }
+        
+        .gallery-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: bottom;
+            padding: 6px;
+        }
+        
+        .gallery-image:hover {
+            cursor: pointer;
+            opacity: 0.5;
+            transition: 0.5s;
+        }
+        
+        .gallery-button {
+            padding-left: 8px;
+            padding-top: 1.5em;
+        }
+        
+        .follow-button {
+            display: flex;
+            margin: auto;
+            padding: 6px;
+            color: white;
+            background-color: black;
+            font-size: 16px;
+            align-items: center;
+        }
+        
+        .follow-button:hover {
+            cursor: pointer;
+        }
